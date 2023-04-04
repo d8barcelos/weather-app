@@ -105,3 +105,33 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+      margin: 50px auto 0;
+      padding: 30px 25px;
+      border-radius: 10px;
+    }
+    .search input {
+      height: 50px;
+      width: 50px;
+      font-size: 16px;
+    }
+    .weather-icon {
+      width: 120px;
+      margin-top: 20px;
+    }
+    .weather h1 {
+      font-size: 60px;
+    }
+    .weather h2 {
+      font-size: 30px;
+    }
+    .details {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .col img {
+      margin-top: 30px;
+    }
+}
