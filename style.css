@@ -130,8 +130,6 @@ body {
     .details {
       flex-direction: column;
       margin-top: 30px;
-    }
-    .col img {
-      margin-top: 30px;
+      gap: 18px;
     }
 }
